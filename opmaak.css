@@ -19,7 +19,9 @@ ul li a {
   display: block;
 }
 ul li a:hover {
-  background-color: green;
+  background-color: RGBA(0,255,0,0.24);
+  opacity: .2
+  color: white;
 }
 ul li ul li {
   display: none;
