@@ -33,3 +33,13 @@ a {
   text-decoration: none;
   color: #990000;
 }
+body{
+  color: green;
+  background-image: url("fotos/oosterparkbackground.jpg");
+  background-repeat:no-repeat;
+  background-size: cover;
+  /* width: 100%; */
+  /* position: absolute; */
+  /* top: 0; */
+  /* left: 0; */
+}
