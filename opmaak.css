@@ -19,7 +19,7 @@ ul li a {
   display: block;
 }
 ul li a:hover {
-  background-color: RGBA(0,255,0,0.24);
+  background-color: green;
   opacity: .2
   color: white;
 }
@@ -42,4 +42,7 @@ body{
   /* position: absolute; */
   /* top: 0; */
   /* left: 0; */
+}
+.dezepagina{
+  background-color: darkgreen;
 }
