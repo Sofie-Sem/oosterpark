@@ -5,7 +5,7 @@ ul{
 }
 ul li {
   float: left;
-  width: 200px;
+  width: 20%;
   height: 40px;
   background-color: black;
   opacity: .8;
@@ -25,6 +25,7 @@ ul li a:hover {
 }
 ul li ul li {
   display: none;
+  width: 100%;
 }
 ul li:hover ul li {
   display: block;
@@ -37,9 +38,6 @@ body{
   background-image: url("fotos/oosterparkbackground.jpg");
   background-repeat:no-repeat;
   background-size: cover;
-}
-.menu{
-  justify-content: space-around;
 }
 .titel{
   background-color: RGBA(48,155,87,0.7);
