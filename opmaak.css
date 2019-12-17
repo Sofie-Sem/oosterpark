@@ -43,3 +43,14 @@ body{
   /* top: 0; */
   /* left: 0; */
 }
+.appcontainer{
+  width: 100% of viewport width;
+  height: 20% of viewport height;
+  border: 4px outset RGBA(0,255,0,0.24);
+  background-color: RGBA(0,255,0,0.24);
+}
+.appcontainer h1, h2{
+  font-family: "Times New Roman";
+  color: black;
+  text-align: left;
+}
