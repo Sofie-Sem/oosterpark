@@ -34,14 +34,30 @@ a {
   color: #990000;
 }
 body{
-  color: green;
   background-image: url("fotos/oosterparkbackground.jpg");
   background-repeat:no-repeat;
   background-size: cover;
-  /* width: 100%; */
-  /* position: absolute; */
-  /* top: 0; */
-  /* left: 0; */
+}
+.menu{
+  justify-content: space-around;
+}
+.titel{
+  background-color: RGBA(48,155,87,0.7);
+  color: black;
+  justify-content: flex-start;
+  width: 600px
+
+}
+.appcontainer{
+  width: 100% of viewport width;
+  height: 20% of viewport height;
+  border: 4px outset RGBA(48,155,87,0.7);
+  background-color: RGBA(48,155,87,0.7);
+}
+.appcontainer h1, h2{
+  font-family: "Times New Roman";
+  color: black;
+  text-align: left;
 }
 .dezepagina{
   background-color: darkgreen;
