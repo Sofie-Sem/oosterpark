@@ -43,8 +43,8 @@ body{
   background-color: RGBA(48,155,87,0.7);
   color: black;
   justify-content: flex-start;
-  width: 600px
-
+  padding: 0.4%;
+  margin-top: 
 }
 .appcontainer{
   width: 100% of viewport width;
