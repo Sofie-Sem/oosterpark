@@ -44,7 +44,7 @@ body{
   color: black;
   justify-content: flex-start;
   padding: 0.4%;
-  margin-top: 
+  margin-top:
 }
 .appcontainer{
   width: 100% of viewport width;
@@ -59,4 +59,11 @@ body{
 }
 .dezepagina{
   background-color: darkgreen;
+}
+
+.content {
+  width: 100% of viewport width;
+  height: 20% of viewport height;
+  border: 4px outset RGBA(48,155,87,0.7);
+  background-color: RGBA(48,155,87,0.7);
 }
