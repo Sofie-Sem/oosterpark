@@ -59,18 +59,47 @@ body{
   border: 2px dashed
 }
 .appcontainer{
-  width: 100% of viewport width;
-  height: 80% of viewport height;
+  width: 39%;
+  display: flex;
+  justify-content: flex-end;
   border: 4px outset RGBA(48,155,87,0.7);
   background-color: RGBA(48,155,87,0.7);
+  padding: 2px;
 }
 .appcontainer h1, h2{
   font-family: "Times New Roman";
   color: black;
   text-align: left;
+  border: 4px outset RGBA(48,155,87,0.7);
+  opacity: .8;
+  background-color: white;
+  padding: 2px;
+}
+.appcontainer_iphonefoto img{
+  height: 80%;
+  width: 200%;
+  padding: 2px;
 }
 .dezepagina{
   background-color: darkgreen;
+}
+
+.titel_index{
+  width: 59%;
+  display: flex;
+  justify-content: flex-start;
+  border: 4px outset RGBA(48,155,87,0.7);
+  background-color: RGBA(48,155,87,0.7);
+  padding: 2px;
+}
+.titel_index h1, h2{
+  font-family: "Times New Roman";
+  color: black;
+  text-align: left;
+  border: 4px outset RGBA(48,155,87,0.7);
+  opacity: .8;
+  background-color: white;
+  padding: 2px;
 }
 .footer{
   background-color: black;
