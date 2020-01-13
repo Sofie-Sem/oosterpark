@@ -45,6 +45,11 @@ body{
   margin: 1%;
   border: 2px dashed
 }
+.appcontainer{
+  width: 97%;
+  border: 4px RGBA(48,155,87,0.7);
+  background-color: RGBA(48,155,87,0.7);
+}
 .infoschoolmateriaal{
   background-color: RGBA(48,155,87,0.7);
   color: black;
@@ -78,24 +83,11 @@ body{
   margin: 1%;
   border: 2px dashed
 }
-.appcontainer{
-  width: 100% of viewport width;
-  height: 80% of viewport height;
-  border: 4px RGBA(48,155,87,0.7);
-  padding: 0.4px;
-  background-color: RGBA(48,155,87,0.7);
-  border-top: none;
-  border-bottom: solid;
-  border-right: none;
-  border-left: none;
-}
 .appcontainer h1, h2{
   font-family: "Times New Roman";
   color: black;
-  text-align: left;
   border: 4px outset RGBA(48,155,87,0.7);
-  opacity: .8;
-  background-color: white;
+  background-color: RGB(230,255,230);
   padding: 2px;
 }
 .appcontainer_iphonefoto img{
@@ -128,36 +120,4 @@ body{
   background-color: black;
   color: RGB(48,155,87);
   margin: 1%;
-}
-ul.info{
-  margin: 0px;
-  padding: 0px;
-  list-style: none;
-}
-ul.info li.info {
-  float: left;
-  width: 19.3%;
-  height: 50px;
-  background-color: black;
-  opacity: .8;
-  line-height: 50px;
-  text-align: center;
-  font-size: 20px;
-}
-ul.info li.info p {
-  text-decoration: none;
-  color: white;
-  display: block;
-}
-ul.info li.info p.info:hover {
-  background-color: green;
-  opacity: .2
-  color: white;
-}
-ul.info li.info ul.info li.info {
-  display: none;
-  width: 100%;
-}
-ul.info li.info:hover ul.info li.info {
-  display: block;
 }
