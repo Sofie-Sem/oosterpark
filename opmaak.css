@@ -40,31 +40,54 @@ body{
   background-size: cover;
 }
 .introvak{
-  background-color: RGBA(46,139,87,0.7);
+  background-color: RGBA(48,155,87,0.7);
   color: black;
-  margin-top: 1%;
+  margin: 1%;
   border: 2px dashed
 }
-/*RGBA(48,155,87,0.7); #309B57 */
 .infoschoolmateriaal{
   background-color: RGBA(48,155,87,0.7);
   color: black;
-  margin-top: 1%;
+  margin: 1%;
   border: 2px dashed
+}
+.populairste{
+  background-color: RGBA(118,238,198,0.9);
+  color: black;
+  margin: 1%;
+  margin: 1%;
+  border: 2px;
+  border-style: dashed solid;
+  display: flex;
+  justify-content: space-around;
+}
+.pop{
+  border: 1px dashed;
+  margin: 2%;
+  padding: 1%;
+  height: 200px;
+  /*padding-left: 1%;
+  padding-right: 1%; */
+  width: 15%;
+  text-align: left;
+  color: black;
 }
 .docenteninfo{
   background-color: RGBA(48,155,87,0.7);
   color: black;
-  margin-top: 1%;
+  margin: 1%;
   border: 2px dashed
 }
 .appcontainer{
-  width: 39%;
-  display: flex;
-  justify-content: flex-end;
-  border: 4px outset RGBA(48,155,87,0.7);
+  width: 100% of viewport width;
+  height: 80% of viewport height;
+  border: 4px RGBA(48,155,87,0.7);
+  padding: 0.4px;
   background-color: RGBA(48,155,87,0.7);
-  padding: 2px;
+  border-top: none;
+  border-bottom: solid;
+  border-right: none;
+  border-left: none;
 }
 .appcontainer h1, h2{
   font-family: "Times New Roman";
@@ -104,4 +127,37 @@ body{
 .footer{
   background-color: black;
   color: RGB(48,155,87);
+  margin: 1%;
+}
+ul.info{
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+ul.info li.info {
+  float: left;
+  width: 19.3%;
+  height: 50px;
+  background-color: black;
+  opacity: .8;
+  line-height: 50px;
+  text-align: center;
+  font-size: 20px;
+}
+ul.info li.info p {
+  text-decoration: none;
+  color: white;
+  display: block;
+}
+ul.info li.info p.info:hover {
+  background-color: green;
+  opacity: .2
+  color: white;
+}
+ul.info li.info ul.info li.info {
+  display: none;
+  width: 100%;
+}
+ul.info li.info:hover ul.info li.info {
+  display: block;
 }
