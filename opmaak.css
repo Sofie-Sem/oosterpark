@@ -83,38 +83,36 @@ body{
   margin: 1%;
   border: 2px dashed
 }
-.appcontainer h1, h2{
+
+.dezepagina{
+  background-color: darkgreen;
+}
+
+.titel_index{
+  width: 100% of viewport;
+  display: flex;
+}
+.titel_index h1, h2{
   font-family: "Times New Roman";
   color: black;
   border: 4px outset RGBA(48,155,87,0.7);
   background-color: RGB(230,255,230);
   padding: 2px;
 }
-.appcontainer_iphonefoto img{
-  height: 80%;
-  width: 200%;
-  padding: 2px;
-}
-.dezepagina{
-  background-color: darkgreen;
-}
-
-.titel_index{
-  width: 59%;
-  display: flex;
-  justify-content: flex-start;
-  border: 4px outset RGBA(48,155,87,0.7);
-  background-color: RGBA(48,155,87,0.7);
-  padding: 2px;
-}
-.titel_index h1, h2{
+.beacons_index, .samenwerking_index, .bewegen_index, h2{
   font-family: "Times New Roman";
   color: black;
   text-align: left;
   border: 4px outset RGBA(48,155,87,0.7);
+  width: 96%;
   opacity: .8;
-  background-color: white;
+  background-color: RGBA(48,155,87,0.7);
   padding: 2px;
+}
+.beacons_index, .samenwerking_index, .bewegen_index, h1{
+  font-family: "Times New Roman";
+  color: black;
+  text-align: left;
 }
 .footer{
   background-color: black;
