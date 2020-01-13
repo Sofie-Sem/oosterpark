@@ -112,6 +112,9 @@ body{
   color: black;
   text-align: left;
 }
+.beacons_index, .samenwerking_index, .bewegen_index img{
+
+}
 .footer{
   background-color: black;
   color: RGB(48,155,87);
