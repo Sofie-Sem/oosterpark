@@ -51,7 +51,7 @@ body{
   color: black;
   /* margin: 1%; */
   width: 95.3%;
-  border: 2px dashed;
+  border: 2px inset RGBA(48,155,87,0.7);
   padding: 0.7%
 }
 .appcontainer{
@@ -68,22 +68,22 @@ body{
 .infoschoolmateriaal{
   background-color: RGBA(48,155,87,0.7);
   color: black;
-  margin: 1%;
-  border: 2px dashed;
+  border: 2px inset RGBA(48,155,87,0.7);
   padding: 0.7%;
+  width: 96%;
 }
 .populairste{
   background-color: RGBA(118,238,198,0.9);
   color: black;
-  margin: 1%;
-  margin: 1%;
   border: 2px;
-  border-style: dashed solid;
+  border-style: inset solid;
+  border-color: RGBA(48,155,87,0.7);
   display: flex;
   justify-content: space-around;
 }
 .pop{
-  border: 1px dashed;
+  border: 1px inset;
+  border-color: RGBA(48,155,87,0.7);
   margin: 2%;
   padding: 1%;
   padding-right: 1%; */
@@ -94,9 +94,10 @@ body{
 .docenteninfo{
   background-color: RGBA(48,155,87,0.7);
   color: black;
-  margin: 1%;
-  border: 2px dashed;
+  border: 2px inset;
+  border-color: RGBA(48,155,87,0.7);
   padding: 0.7%;
+  width: 96%;
 }
 
 .dezepagina{
