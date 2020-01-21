@@ -42,8 +42,10 @@ body{
 .introvak{
   background-color: RGBA(48,155,87,0.7);
   color: black;
-  margin: 1%;
-  border: 2px dashed
+  /* margin: 1%; */
+  width: 95.3%;
+  border: 2px dashed;
+  padding: 0.7%
 }
 .appcontainer{
   width: 97%;
@@ -60,7 +62,8 @@ body{
   background-color: RGBA(48,155,87,0.7);
   color: black;
   margin: 1%;
-  border: 2px dashed
+  border: 2px dashed;
+  padding: 0.7%;
 }
 .populairste{
   background-color: RGBA(118,238,198,0.9);
@@ -76,8 +79,6 @@ body{
   border: 1px dashed;
   margin: 2%;
   padding: 1%;
-  height: 200px;
-  /*padding-left: 1%;
   padding-right: 1%; */
   width: 15%;
   text-align: left;
@@ -87,7 +88,8 @@ body{
   background-color: RGBA(48,155,87,0.7);
   color: black;
   margin: 1%;
-  border: 2px dashed
+  border: 2px dashed;
+  padding: 0.7%;
 }
 
 .dezepagina{
@@ -126,6 +128,5 @@ body{
 }
 .footer{
   background-color: black;
-  color: RGB(48,155,87);
-  margin: 1%;
+  color: white;
 }
