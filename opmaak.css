@@ -1,3 +1,4 @@
+/* titel pagina */
 .menu{
   width: 96%;
 }
@@ -41,29 +42,23 @@ a {
   text-decoration: none;
   color: #990000;
 }
+.dezepagina{
+  background-color: darkgreen;
+}
+
 body{
   background-image: url("fotos/oosterparkbackground.jpg");
   background-repeat:no-repeat;
   background-size: cover;
 }
+
+/* lessen pagina */
 .introvak{
   background-color: RGBA(48,155,87,0.7);
   color: black;
-  /* margin: 1%; */
-  width: 95.3%;
+  width: 96%;
   border: 2px inset RGBA(48,155,87,0.7);
   padding: 0.7%
-}
-.appcontainer{
-  width: 97%;
-  background-color: RGBA(48,155,87,0.7);
-}
-.appcontainer h1, .appcontainer h2{
-  font-family: "Times New Roman";
-  color: black;
-  border: 4px outset RGBA(48,155,87,0.7);
-  background-color: RGB(230,255,230);
-  padding: 2px;
 }
 .infoschoolmateriaal{
   background-color: RGBA(48,155,87,0.7);
@@ -100,19 +95,21 @@ body{
   width: 96%;
 }
 
-.dezepagina{
-  background-color: darkgreen;
+/* titel elke pagina */
+.titel_index{
+  border: 4px outset RGBA(48,155,87,0.7);
+  background-color: RGB(230,255,230);
+  width: 96%;
+  height: 20%;
 }
-
-
 .titel_index h1, .titel_index h2{
   font-family: "Times New Roman";
   color: black;
-  border: 4px outset RGBA(48,155,87,0.7);
-  background-color: RGB(230,255,230);
   padding: 2px;
-  width: 96%;
+
 }
+
+/* home pagina */
 .beacons_index, .samenwerking_index, .bewegen_index, .beacons_index h2, .bewegen_index h2, .samenwerking_index h2{
   font-family: "Times New Roman";
   color: black;
@@ -138,6 +135,7 @@ body{
   text-align: left;
 }
 
+/* footer elke pagina */
 .footer{
   background-color: black;
   color: white;
