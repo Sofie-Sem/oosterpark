@@ -46,6 +46,20 @@ a {
   background-color: darkgreen;
 }
 
+/* titel elke pagina */
+.titel_index{
+  border: 4px outset RGBA(48,155,87,0.7);
+  background-color: RGB(230,255,230);
+  width: 96%;
+  height: 20%;
+}
+.titel_index h1, .titel_index h2{
+  font-family: "Times New Roman";
+  color: black;
+  padding: 2px;
+
+}
+
 body{
   background-image: url("fotos/oosterparkbackground.jpg");
   background-repeat:no-repeat;
@@ -58,13 +72,12 @@ body{
   color: black;
   width: 96%;
   border: 2px inset RGBA(48,155,87,0.7);
-  padding: 0.7%
 }
 .infoschoolmateriaal{
   background-color: RGBA(48,155,87,0.7);
   color: black;
   border: 2px inset RGBA(48,155,87,0.7);
-  padding: 0.7%;
+
   width: 96%;
 }
 .populairste{
@@ -91,22 +104,7 @@ body{
   color: black;
   border: 2px inset;
   border-color: RGBA(48,155,87,0.7);
-  padding: 0.7%;
   width: 96%;
-}
-
-/* titel elke pagina */
-.titel_index{
-  border: 4px outset RGBA(48,155,87,0.7);
-  background-color: RGB(230,255,230);
-  width: 96%;
-  height: 20%;
-}
-.titel_index h1, .titel_index h2{
-  font-family: "Times New Roman";
-  color: black;
-  padding: 2px;
-
 }
 
 /* home pagina */
@@ -135,6 +133,27 @@ body{
   text-align: left;
 }
 
+/* bedenker */
+.bassisinfo_bedenker, .contact_bedenker{
+  font-family: "Times New Roman";
+  color: black;
+  text-align: left;
+  border: 4px outset RGBA(48,155,87,0.7);
+  width: 96%;
+  background-color: RGBA(48,155,87,0.7);
+  padding: 2px;
+  display: flex;
+  flex-direction: column;
+}
+.bassisinfo_bedenker img{
+  float: right;
+  width: 40%;
+  height: 40%;
+}
+.contact_bedenker img{
+  float: left;
+  width: 5%;
+}
 /* footer elke pagina */
 .footer{
   background-color: black;
