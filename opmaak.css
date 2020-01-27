@@ -40,7 +40,7 @@ ul li:hover ul li {
 }
 a {
   text-decoration: none;
-  color: #990000;
+  color: black;
 }
 .dezepagina{
   background-color: darkgreen;
@@ -70,7 +70,7 @@ body{
 .introvak{
   background-color: RGBA(48,155,87,0.7);
   color: black;
-  width: 96%;
+  width: 95.3%;
   border: 2px inset RGBA(48,155,87,0.7);
 }
 .infoschoolmateriaal{
@@ -80,6 +80,39 @@ body{
 
   width: 96%;
 }
+.infolesjes{
+  background-color: RGBA(48,155,87,0.7);
+  border: 2px inset RGBA(48,155,87,0.7);
+  width: 96%;
+}
+
+
+
+
+
+.tabellesjes{
+  border-collapse: collapse;
+  width: 100%;
+  table-layout: fixed;
+}
+.tabellesjes th,.tabellesjes td {
+  text-align: left;
+  padding: 8px;
+  vertical-align: top;
+}
+.tabellesjes th {
+  background-color: #309B57;
+  color: #E6FFE6;
+}
+.tabellesjes{
+  background-color: #E6FFE6
+}
+
+
+
+
+
+
 .populairste{
   background-color: RGBA(118,238,198,0.9);
   color: black;
