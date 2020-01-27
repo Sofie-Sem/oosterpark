@@ -207,8 +207,58 @@ body{
   float: right;
   width: 20%;
 }
+/* metis */
+.tekst_metis{
+  font-family: "Times New Roman";
+  color: black;
+  text-align: left;
+  border: 4px outset RGBA(48,155,87,0.7);
+  width: 96%;
+  background-color: RGBA(48,155,87,0.7);
+  padding: 2px;
+  display: flex;
+  flex-direction: column;
+}
+.img_metis img{
+  float: center;
+  width: 100%;
+}
+.img_metis{
+  font-family: "Times New Roman";
+  color: black;
+  text-align: left;
+  border: 4px outset RGBA(48,155,87,0.7);
+  width: 96%;
+  background-color: RGBA(48,155,87,0.7);
+  padding: 2px;
+  display: flex;
+  flex-direction: column;
+}
+.link_metis{
+  font-family: "Times New Roman";
+  color: black;
+  text-align: center;
+  border: 4px outset RGBA(48,155,87,0.7);
+  width: 96%;
+  background-color: RGB(230,255,230);
+  padding: 2px;
+  display: flex;
+  flex-direction: column;
+}
 /* footer elke pagina */
 .footer{
   background-color: black;
   color: white;
+}
+
+.links {
+  color: black;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+.links:hover {
+  color: blue;
+  background-color: transparent;
+  text-decoration: underline;
 }
