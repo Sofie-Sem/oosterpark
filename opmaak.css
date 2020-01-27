@@ -246,6 +246,27 @@ body{
   display: flex;
   flex-direction: column;
 }
+.tekst_wgho img{
+  width: 40%;
+  float: right;
+}
+/* bewegen */
+.tekst_bewegen{
+  font-family: "Times New Roman";
+  color: black;
+  text-align: left;
+  border: 4px outset RGBA(48,155,87,0.7);
+  width: 96%;
+  background-color: RGBA(48,155,87,0.7);
+  padding: 2px;
+  display: flex;
+  flex-direction: column;
+}
+.tekst_bewegen img{
+  width: 40%;
+  float: right;
+}
+
 /* footer elke pagina */
 .footer{
   background-color: black;
