@@ -1,8 +1,10 @@
 /* titel pagina */
 .menu{
-  width: 96%;
+  width: 99%;
 }
-.menu img{
+
+.menu-logo{
+  float: right;
   width: 3.5%;
   height: 3.5%;
 }
@@ -167,7 +169,7 @@ body{
 }
 
 /* bedenker */
-.bassisinfo_bedenker, .contact_bedenker{
+.bassisinfo_bedenker, .contact_bedenker, .interview_bedenker{
   font-family: "Times New Roman";
   color: black;
   text-align: left;
