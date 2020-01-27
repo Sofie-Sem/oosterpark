@@ -189,6 +189,22 @@ body{
   float: left;
   width: 5%;
 }
+/* overons */
+.wij_overons{
+  font-family: "Times New Roman";
+  color: black;
+  text-align: left;
+  border: 4px outset RGBA(48,155,87,0.7);
+  width: 96%;
+  background-color: RGBA(48,155,87,0.7);
+  padding: 2px;
+  display: flex;
+  flex-direction: column;
+}
+.wij_overons img{
+  float: right;
+  width: 20%;
+}
 /* footer elke pagina */
 .footer{
   background-color: black;
