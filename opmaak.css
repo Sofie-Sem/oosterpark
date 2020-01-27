@@ -86,6 +86,7 @@ body{
   background-color: RGBA(48,155,87,0.7);
   border: 2px inset RGBA(48,155,87,0.7);
   width: 96%;
+  padding: 1%;
 }
 
 
@@ -95,6 +96,7 @@ body{
 .tabellesjes{
   border-collapse: collapse;
   width: 100%;
+  margin: 1%;
   table-layout: fixed;
 }
 .tabellesjes th,.tabellesjes td {
