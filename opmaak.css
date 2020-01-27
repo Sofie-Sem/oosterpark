@@ -111,6 +111,9 @@ body{
 .tabellesjes{
   background-color: #E6FFE6
 }
+.tabellesjes a{
+  color: darkgreen;
+}
 
 
 
