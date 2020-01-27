@@ -1,3 +1,4 @@
+/* titel pagina */
 .menu{
   width: 99%;
 }
@@ -41,39 +42,79 @@ ul li:hover ul li {
 }
 a {
   text-decoration: none;
-  color: #990000;
+  color: black;
 }
+.dezepagina{
+  background-color: darkgreen;
+}
+
+/* titel elke pagina */
+.titel_index{
+  border: 4px outset RGBA(48,155,87,0.7);
+  background-color: RGB(230,255,230);
+  width: 96%;
+  height: 20%;
+}
+.titel_index h1, .titel_index h2{
+  font-family: "Times New Roman";
+  color: black;
+  padding: 2px;
+
+}
+
 body{
   background-image: url("fotos/oosterparkbackground.jpg");
   background-repeat:no-repeat;
   background-size: cover;
 }
+
+/* lessen pagina */
 .introvak{
   background-color: RGBA(48,155,87,0.7);
   color: black;
-  /* margin: 1%; */
   width: 95.3%;
   border: 2px inset RGBA(48,155,87,0.7);
-  padding: 0.7%
-}
-.appcontainer{
-  width: 97%;
-  background-color: RGBA(48,155,87,0.7);
-}
-.appcontainer h1, .appcontainer h2{
-  font-family: "Times New Roman";
-  color: black;
-  border: 4px outset RGBA(48,155,87,0.7);
-  background-color: RGB(230,255,230);
-  padding: 2px;
 }
 .infoschoolmateriaal{
   background-color: RGBA(48,155,87,0.7);
   color: black;
   border: 2px inset RGBA(48,155,87,0.7);
-  padding: 0.7%;
+
   width: 96%;
 }
+.infolesjes{
+  background-color: RGBA(48,155,87,0.7);
+  border: 2px inset RGBA(48,155,87,0.7);
+  width: 96%;
+}
+
+
+
+
+
+.tabellesjes{
+  border-collapse: collapse;
+  width: 100%;
+  table-layout: fixed;
+}
+.tabellesjes th,.tabellesjes td {
+  text-align: left;
+  padding: 8px;
+  vertical-align: top;
+}
+.tabellesjes th {
+  background-color: #309B57;
+  color: #E6FFE6;
+}
+.tabellesjes{
+  background-color: #E6FFE6
+}
+
+
+
+
+
+
 .populairste{
   background-color: RGBA(118,238,198,0.9);
   color: black;
@@ -98,23 +139,10 @@ body{
   color: black;
   border: 2px inset;
   border-color: RGBA(48,155,87,0.7);
-  padding: 0.7%;
   width: 96%;
 }
 
-.dezepagina{
-  background-color: darkgreen;
-}
-
-
-.titel_index h1, .titel_index h2{
-  font-family: "Times New Roman";
-  color: black;
-  border: 4px outset RGBA(48,155,87,0.7);
-  background-color: RGB(230,255,230);
-  padding: 2px;
-  width: 96%;
-}
+/* home pagina */
 .beacons_index, .samenwerking_index, .bewegen_index, .beacons_index h2, .bewegen_index h2, .samenwerking_index h2{
   font-family: "Times New Roman";
   color: black;
@@ -140,6 +168,28 @@ body{
   text-align: left;
 }
 
+/* bedenker */
+.bassisinfo_bedenker, .contact_bedenker, .interview_bedenker{
+  font-family: "Times New Roman";
+  color: black;
+  text-align: left;
+  border: 4px outset RGBA(48,155,87,0.7);
+  width: 96%;
+  background-color: RGBA(48,155,87,0.7);
+  padding: 2px;
+  display: flex;
+  flex-direction: column;
+}
+.bassisinfo_bedenker img{
+  float: right;
+  width: 40%;
+  height: 40%;
+}
+.contact_bedenker img{
+  float: left;
+  width: 5%;
+}
+/* footer elke pagina */
 .footer{
   background-color: black;
   color: white;
