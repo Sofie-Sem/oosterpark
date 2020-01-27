@@ -134,7 +134,7 @@ body{
 }
 
 /* bedenker */
-.bassisinfo_bedenker, .contact_bedenker{
+.bassisinfo_bedenker, .contact_bedenker, .interview_bedenker{
   font-family: "Times New Roman";
   color: black;
   text-align: left;
