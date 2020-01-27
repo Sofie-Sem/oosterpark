@@ -194,3 +194,15 @@ body{
   background-color: black;
   color: white;
 }
+
+.links {
+  color: black;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+.links:hover {
+  color: blue;
+  background-color: transparent;
+  text-decoration: underline;
+}
