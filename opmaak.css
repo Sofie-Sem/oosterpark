@@ -2,7 +2,6 @@
 .menu{
   width: 99%;
 }
-
 .menu-logo{
   float: right;
   width: 3.5%;
@@ -48,6 +47,8 @@ a {
   background-color: darkgreen;
 }
 
+
+
 /* titel elke pagina */
 .titel_index{
   border: 4px outset RGBA(48,155,87,0.7);
@@ -68,19 +69,20 @@ body{
   background-size: cover;
 }
 
+
+
 /* lessen pagina */
 .introvak{
   background-color: RGBA(48,155,87,0.7);
   color: black;
-  width: 95.3%;
+  width: 96.4%;
   border: 2px inset RGBA(48,155,87,0.7);
 }
 .infoschoolmateriaal{
   background-color: RGBA(48,155,87,0.7);
   color: black;
   border: 2px inset RGBA(48,155,87,0.7);
-
-  width: 96%;
+  width: 96.4%;
 }
 .infolesjes{
   background-color: RGBA(48,155,87,0.7);
@@ -93,6 +95,7 @@ body{
   width: 100%;
   margin: 1%;
   table-layout: fixed;
+  background-color: #E6FFE6
 }
 .tabellesjes th,.tabellesjes td {
   text-align: left;
@@ -103,8 +106,8 @@ body{
   background-color: #309B57;
   color: #E6FFE6;
 }
-.tabellesjes{
-  background-color: #E6FFE6
+.tabellesjes a{
+  color: darkgreen;
 }
 .populairste{
   background-color: RGBA(118,238,198,0.9);
@@ -130,8 +133,18 @@ body{
   color: black;
   border: 2px inset;
   border-color: RGBA(48,155,87,0.7);
-  width: 96%;
+  width: 96.4%;
 }
+.ideen{
+  padding: 1%;
+  background-color: RGB(230,255,230);
+  border: 2px dotted;
+  border-color: RGBA(48,155,87,0.7);
+  width: 15%;
+}
+
+
+
 
 /* home pagina */
 .beacons_index, .samenwerking_index, .bewegen_index, .beacons_index h2, .bewegen_index h2, .samenwerking_index h2{
@@ -159,6 +172,9 @@ body{
   text-align: left;
 }
 
+
+
+
 /* bedenker */
 .bassisinfo_bedenker, .contact_bedenker, .interview_bedenker{
   font-family: "Times New Roman";
@@ -180,6 +196,10 @@ body{
   float: left;
   width: 5%;
 }
+
+
+
+
 /* overons */
 .wij_overons{
   font-family: "Times New Roman";
@@ -196,6 +216,9 @@ body{
   float: right;
   width: 20%;
 }
+
+
+
 /* metis */
 .tekst_metis{
   font-family: "Times New Roman";
@@ -234,6 +257,9 @@ body{
   display: flex;
   flex-direction: column;
 }
+
+
+
 /* waargaathetover */
 .tekst_wgho{
   font-family: "Times New Roman";
@@ -250,6 +276,9 @@ body{
   width: 40%;
   float: right;
 }
+
+
+
 /* bewegen */
 .tekst_bewegen{
   font-family: "Times New Roman";
@@ -266,6 +295,8 @@ body{
   width: 40%;
   float: right;
 }
+
+
 
 /* footer elke pagina */
 .footer{
