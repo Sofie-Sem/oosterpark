@@ -266,7 +266,38 @@ body{
   width: 40%;
   float: right;
 }
-
+/* beacons */
+.tekst_beacons{
+  font-family: "Times New Roman";
+  color: black;
+  text-align: left;
+  border: 4px outset RGBA(48,155,87,0.7);
+  width: 96%;
+  background-color: RGBA(48,155,87,0.7);
+  padding: 2px;
+  display: flex;
+  flex-direction: column;
+}
+.tekst_beacons img{
+  width: 40%;
+  float: right;
+}
+/* app */
+.tekst_app{
+  font-family: "Times New Roman";
+  color: black;
+  text-align: left;
+  border: 4px outset RGBA(48,155,87,0.7);
+  width: 96%;
+  background-color: RGBA(48,155,87,0.7);
+  padding: 2px;
+  display: flex;
+  flex-direction: column;
+}
+.tekst_app img{
+  width: 40%;
+  float: right;
+}
 /* footer elke pagina */
 .footer{
   background-color: black;
