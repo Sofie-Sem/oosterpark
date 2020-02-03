@@ -1,11 +1,11 @@
 /* titel pagina */
 .menu{
-  width: 99%;
+  float: right;
+  width: 93.5%;
 }
 .menu-logo{
-  float: right;
-  width: 3.5%;
-  height: 3.5%;
+  height: 10%;
+  width: 10%;
 }
 ul{
   margin: 0px;
