@@ -69,8 +69,6 @@ body{
   background-size: cover;
 }
 
-
-
 /* lessen pagina */
 .introvak{
   background-color: RGBA(48,155,87,0.7);
@@ -346,9 +344,10 @@ body{
 }
 /* footer elke pagina */
 .footer{
-  background-color: black;
-  color: white;
-  padding-top: 32%;
+  border: 4px outset RGBA(48,155,87,0.7);
+  background-color: RGB(230,255,230);
+  width: 96%;
+  height: 1%;
 }
 
 .links {
