@@ -348,6 +348,7 @@ body{
   background-color: RGB(230,255,230);
   width: 96%;
   height: 1%;
+  text-align: center;
 }
 
 .links {
