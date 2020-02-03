@@ -352,10 +352,7 @@ p{
   width: 35%;
   float: right;
 }
-.tekst_app p, .tekst_app h2{
-  text-align: left;
-  font-size: 125%;
-}
+
 /* footer elke pagina */
 .footer{
   border: 4px outset RGBA(48,155,87,0.7);
