@@ -68,7 +68,9 @@ body{
   background-repeat:no-repeat;
   background-size: cover;
 }
-
+p{
+  font-size: 125%;
+}
 
 
 /* lessen pagina */
@@ -276,7 +278,13 @@ body{
   width: 40%;
   float: right;
 }
-
+.filmpje{
+  padding: 1%;
+  background-color: RGB(230,255,230);
+  border: 2px dotted;
+  border-color: RGBA(48,155,87,0.7);
+  width: 15%;
+}
 
 
 /* bewegen */
@@ -341,8 +349,12 @@ body{
   flex-direction: column;
 }
 .tekst_app img{
-  width: 40%;
+  width: 35%;
   float: right;
+}
+.tekst_app p, .tekst_app h2{
+  text-align: left;
+  font-size: 125%;
 }
 /* footer elke pagina */
 .footer{
