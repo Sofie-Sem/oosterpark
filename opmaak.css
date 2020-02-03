@@ -329,8 +329,10 @@ body{
 }
 /* footer elke pagina */
 .footer{
-  background-color: black;
-  color: white;
+  border: 4px outset RGBA(48,155,87,0.7);
+  background-color: RGB(230,255,230);
+  width: 96%;
+  height: 1%;
 }
 
 .links {
