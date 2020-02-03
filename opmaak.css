@@ -1,11 +1,11 @@
 /* titel pagina */
 .menu{
-  width: 99%;
+  float: right;
+  width: 93.5%;
 }
 .menu-logo{
-  float: right;
-  width: 3.5%;
-  height: 3.5%;
+  height: 10%;
+  width: 10%;
 }
 ul{
   margin: 0px;
@@ -358,9 +358,11 @@ p{
 }
 /* footer elke pagina */
 .footer{
-  background-color: black;
-  color: white;
-  padding-top: 32%;
+  border: 4px outset RGBA(48,155,87,0.7);
+  background-color: RGB(230,255,230);
+  width: 96%;
+  height: 1%;
+  text-align: center;
 }
 
 .links {
