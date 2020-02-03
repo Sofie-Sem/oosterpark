@@ -69,8 +69,6 @@ body{
   background-size: cover;
 }
 
-
-
 /* lessen pagina */
 .introvak{
   background-color: RGBA(48,155,87,0.7);
@@ -311,6 +309,23 @@ body{
   width: 40%;
   float: right;
 }
+.locaties_text{
+  padding: 1%;
+  background-color: RGB(230,255,230);
+  border: 2px dotted;
+  border-color: RGBA(48,155,87,0.7);
+  float: left;
+  width: 52%;
+}
+.locaties_frame{
+  padding: 1%;
+  background-color: RGB(230,255,230);
+  border: 2px dotted;
+  border-color: RGBA(48,155,87,0.7);
+  float: right;
+  margin-right: 2.7%;
+}
+
 /* app */
 .tekst_app{
   font-family: "Times New Roman";
