@@ -42,6 +42,7 @@ ul li:hover ul li {
 a {
   text-decoration: none;
   color: white;
+  font-family: "Verdana";
 }
 .dezepagina{
   background-color: darkgreen;
@@ -57,7 +58,7 @@ a {
   height: 1%;
 }
 .titel_index h1, .titel_index h2{
-  font-family: "Times New Roman";
+  font-family: "Verdana";
   color: black;
   padding: 2px;
 
@@ -69,7 +70,8 @@ body{
   background-size: cover;
 }
 p{
-  font-size: 125%;
+  font-size: 110%;
+  font-family: "Verdana";
 }
 
 
@@ -78,6 +80,7 @@ p{
   background-color: RGBA(48,155,87,0.7);
   color: black;
   width: 96.4%;
+  font-family: "Verdana";
   border: 2px inset RGBA(48,155,87,0.7);
 }
 .infoschoolmateriaal{
@@ -85,6 +88,7 @@ p{
   color: black;
   border: 2px inset RGBA(48,155,87,0.7);
   width: 96.4%;
+  font-family: "Verdana";
 }
 .infolesjes{
   background-color: RGBA(48,155,87,0.7);
@@ -96,6 +100,7 @@ p{
   border-collapse: collapse;
   width: 100%;
   margin: 1%;
+  font-family: "Verdana";
   table-layout: fixed;
   background-color: #E6FFE6
 }
@@ -110,6 +115,7 @@ p{
 }
 .tabellesjes a{
   color: darkgreen;
+  font-family: "Verdana";
 }
 .populairste{
   background-color: RGBA(118,238,198,0.9);
@@ -131,6 +137,7 @@ p{
   color: black;
 }
 .docenteninfo{
+  font-family: "Verdana";
   background-color: RGBA(48,155,87,0.7);
   color: black;
   border: 2px inset;
@@ -150,7 +157,7 @@ p{
 
 /* home pagina */
 .beacons_index, .samenwerking_index, .bewegen_index, .beacons_index h2, .bewegen_index h2, .samenwerking_index h2{
-  font-family: "Times New Roman";
+  font-family: "Verdana";
   color: black;
   text-align: left;
   border: 4px outset RGBA(48,155,87,0.7);
@@ -169,7 +176,7 @@ p{
   width: 20%;
 }
 .beacons_index, .samenwerking_index, .bewegen_index, h1{
-  font-family: "Times New Roman";
+  font-family: "Verdana";
   color: black;
   text-align: left;
 }
@@ -179,7 +186,7 @@ p{
 
 /* bedenker */
 .bassisinfo_bedenker, .contact_bedenker, .interview_bedenker{
-  font-family: "Times New Roman";
+  font-family: "Verdana";
   color: black;
   text-align: left;
   border: 4px outset RGBA(48,155,87,0.7);
@@ -204,7 +211,7 @@ p{
 
 /* overons */
 .wij_overons{
-  font-family: "Times New Roman";
+  font-family: "Verdana";
   color: black;
   text-align: left;
   border: 4px outset RGBA(48,155,87,0.7);
@@ -223,7 +230,7 @@ p{
 
 /* metis */
 .tekst_metis{
-  font-family: "Times New Roman";
+  font-family: "Verdana";
   color: black;
   text-align: left;
   border: 4px outset RGBA(48,155,87,0.7);
@@ -238,7 +245,7 @@ p{
   width: 100%;
 }
 .img_metis{
-  font-family: "Times New Roman";
+  font-family: "Verdana";
   color: black;
   text-align: left;
   border: 4px outset RGBA(48,155,87,0.7);
@@ -249,7 +256,7 @@ p{
   flex-direction: column;
 }
 .link_metis{
-  font-family: "Times New Roman";
+  font-family: "Verdana";
   color: black;
   text-align: center;
   border: 4px outset RGBA(48,155,87,0.7);
@@ -264,7 +271,7 @@ p{
 
 /* waargaathetover */
 .tekst_wgho{
-  font-family: "Times New Roman";
+  font-family: "Verdana";
   color: black;
   text-align: left;
   border: 4px outset RGBA(48,155,87,0.7);
@@ -289,7 +296,7 @@ p{
 
 /* bewegen */
 .tekst_bewegen{
-  font-family: "Times New Roman";
+  font-family: "Verdana";
   color: black;
   text-align: left;
   border: 4px outset RGBA(48,155,87,0.7);
@@ -305,7 +312,7 @@ p{
 }
 /* beacons */
 .tekst_beacons{
-  font-family: "Times New Roman";
+  font-family: "Verdana";
   color: black;
   text-align: left;
   border: 4px outset RGBA(48,155,87,0.7);
@@ -325,7 +332,7 @@ p{
   border: 2px dotted;
   border-color: RGBA(48,155,87,0.7);
   float: left;
-  width: 52%;
+  width: 47%;
 }
 .locaties_frame{
   padding: 1%;
@@ -336,9 +343,10 @@ p{
   margin-right: 2.7%;
 }
 
+
 /* app */
 .tekst_app{
-  font-family: "Times New Roman";
+  font-family: "Verdana";
   color: black;
   text-align: left;
   border: 4px outset RGBA(48,155,87,0.7);
