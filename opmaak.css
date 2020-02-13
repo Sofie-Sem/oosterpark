@@ -99,6 +99,7 @@ p{
 .tabellesjes{
   border-collapse: collapse;
   width: 100%;
+  border: 1px;
   margin: 1%;
   font-family: "Verdana";
   table-layout: fixed;
